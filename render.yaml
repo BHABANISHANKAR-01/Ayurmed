@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: ayurmed
+    runtime: node
+    startCommand: node server.js
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: API_KEY
+        scope: all

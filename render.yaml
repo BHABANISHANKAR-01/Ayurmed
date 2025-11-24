@@ -3,7 +3,3 @@ services:
     name: ayurmed
     buildCommand: npm install && npm run build
     staticPublishPath: ./dist
-    envVars:
-      - key: API_KEY
-        scope: build
-        sync: false

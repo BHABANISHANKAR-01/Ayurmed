@@ -2,7 +2,6 @@ services:
   - type: web
     name: ayurmed
     runtime: node
-    rootDir: .
     buildCommand: npm ci && npm run build
     startCommand: node server.js
     envVars:

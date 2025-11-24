@@ -1,0 +1,8 @@
+{
+  "name": "AyurMed India",
+  "description": "A comprehensive medical platform for Indian hospitals featuring OCR prescription scanning, AI risk prediction, and lifetime medical history tracking.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

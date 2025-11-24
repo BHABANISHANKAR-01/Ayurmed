@@ -2,11 +2,10 @@ services:
   - type: web
     name: ayurmed
     runtime: node
-    buildCommand: npm ci && npm run build && echo "Build completed" && ls -la dist/ || echo "dist folder not found"
+    buildCommand: npm install && npm run build
     startCommand: node server.js
     envVars:
       - key: NODE_ENV
         value: production
       - key: API_KEY
         scope: build
-        sync: false

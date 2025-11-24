@@ -1,5 +1,6 @@
 services:
-  - type: static
+  - type: web
     name: ayurmed
+    runtime: node
     buildCommand: npm install && npm run build
-    staticPublishPath: ./dist
+    startCommand: npm start

@@ -84,7 +84,3 @@ process.on('SIGTERM', () => {
     process.exit(0);
   });
 });
-
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
-});
